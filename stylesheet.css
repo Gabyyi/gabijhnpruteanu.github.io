@@ -1,15 +1,12 @@
 *{
     margin: 0px;
+}
+body{
     background-color: #1f2f44;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: max-content; */
 }
-/* section{
-    margin: 0px;
-} */
-
 .home{
     position: relative;
     width: 80%;
@@ -18,11 +15,6 @@
     display: flex;
     align-items: center;
     padding: 50px 10% 0;
-    /*background-image: url("wallpaper.jpg");*/
-    /* background-color: #1f2f44;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
 }
 .home-content{
     max-width:700px;
@@ -34,6 +26,7 @@
     margin-top: -70px;
     margin-bottom: 30px;
     color: #de8eff;
+    /* text-shadow: 0 0 1rem #b300ff; */
 }
 /*.home-content h2 span{
     
@@ -43,7 +36,7 @@
     font-weight: 500;
     font-family: monospace;
     color: rgb(155, 255, 101);
-    /*text-shadow: 0 0 1rem rgb(155, 255, 101);*/
+    /* text-shadow: 0 0 0.3rem rgb(89, 255, 0); */
 }
 .p1{
     font-size: 17px;
