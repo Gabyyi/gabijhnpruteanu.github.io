@@ -1,9 +1,15 @@
 *{
     margin: 0px;
+    background-color: #1f2f44;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: max-content; */
 }
-section{
+/* section{
     margin: 0px;
-}
+} */
+
 .home{
     position: relative;
     width: 80%;
@@ -13,10 +19,10 @@ section{
     align-items: center;
     padding: 50px 10% 0;
     /*background-image: url("wallpaper.jpg");*/
-    background-color: #1f2f44;
+    /* background-color: #1f2f44;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
 .home-content{
     max-width:700px;
@@ -58,10 +64,6 @@ section{
     color: rgb(255, 255, 255);
 }
 .home-contact a{
-    /*margin-top: -20000px;
-    margin-bottom: 20000px;
-    margin-left: 2000px;
-    margin-right: 0px;*/
     display: inline-flex;
     justify-content: center;
     align-items: center;
